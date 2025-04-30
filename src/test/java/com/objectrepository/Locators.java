@@ -9,4 +9,9 @@ public class Locators {
 	public final By fbLogin_Password_Editbox = By.id("pass");
 	public final By fbLogin_Login_Button = By.name("login");
 
+	// Locators for podfoods.co
+	public final By podfoods_Login_Button1 = By.xpath("//*[@class='el-button el-button--ghost']");
+	public final By podfoods_Email_Editbox = By.name("email");
+	public final By podfoods_Password_Editbox = By.name("password");
+	public final By podfoods_Login_Button2 = By.xpath("//button[@type='button']");
 }
