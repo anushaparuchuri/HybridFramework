@@ -24,7 +24,7 @@ public class Fblogin {
 	public void f() throws Exception {
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(3000);
-		//driver.findElement(loc.fbLogin_Email_Editbox).clear();
+		driver.findElement(loc.fbLogin_Email_Editbox).clear();
 		driver.findElement(loc.fbLogin_Email_Editbox).sendKeys("AnushaTest@gmail.sdgsom");
 		driver.findElement(loc.fbLogin_Password_Editbox).sendKeys("testsdgsdgdsg");
 		driver.findElement(loc.fbLogin_Login_Button).click();
