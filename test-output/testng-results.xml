@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-04-29T17:20:08 MST" name="Default suite" finished-at="2025-04-29T17:20:10 MST" duration-ms="2025">
+=======
+  <suite started-at="2025-04-29T18:54:45 MDT" name="Default suite" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5362">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-04-29T17:20:08 MST" name="Default test" finished-at="2025-04-29T17:20:10 MST" duration-ms="2025">
+=======
+    <test started-at="2025-04-29T18:54:45 MDT" name="Default test" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5362">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
       <class name="com.testscenarios.Fblogin">
+<<<<<<< HEAD
         <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.Fblogin@7eac9008]" started-at="2025-04-29T17:20:08 MST" name="beforeClass" finished-at="2025-04-29T17:20:09 MST" duration-ms="1960" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
@@ -126,6 +139,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+=======
+        <test-method signature="f()[pri:0, instance:com.testscenarios.Fblogin@7ee8290b]" started-at="2025-04-29T18:54:45 MDT" name="f" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5301" status="PASS">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
