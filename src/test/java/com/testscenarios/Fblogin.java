@@ -26,6 +26,9 @@ public class Fblogin extends CommonFunctions {
 		sendKeysByAnyLocator(loc.fbLogin_Email_Editbox, "fbUN");
 		sendKeysByAnyLocator(loc.fbLogin_Password_Editbox, "fbPWD");
 		clickByAnyLocator(loc.fbLogin_Login_Button);
+		Thread.sleep(6000);
+//		takescreenshot
+		takeScreenshot("Anusha");
 		driver.quit();
 
 	}
