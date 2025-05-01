@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.Fblogin">
+      <class name="com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout">
         <methods>
-          <include name="beforeClass"/>
-          <include name="f"/>
+          <include name="TC_06"/>
         </methods>
-      </class> <!-- com.testscenarios.Fblogin -->
+      </class> <!-- com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

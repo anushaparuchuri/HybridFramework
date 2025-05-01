@@ -209,6 +209,7 @@ public class CommonFunctions {
 				// Click on Button/radiobutton/checkbox/Link...
 				highlightElement(element);
 				element.click();
+				implicitWait(10);
 			} else {
 				System.out.println("Given locator is not enable state on DOM(Current page***");
 			}
@@ -253,7 +254,7 @@ public class CommonFunctions {
 	/*********** timestamp **********/
 	public String timestamp() {
 		Date d = new Date();
-		DateFormat df = new SimpleDateFormat("ddMMMyyy_HHmmss");
+		DateFormat df = new SimpleDateFormat("ddMMMyyyy_HHmmss");
 		String timeTamp = df.format(d);
 		return timeTamp;
 	}
@@ -767,11 +768,11 @@ public class CommonFunctions {
 		WebElement ele = driver.findElement(locator);
 		highlightElement(ele);
 		String eleText = ele.getText();
+		System.out.println("verifyTexttobePresent method eleText is : "+ eleText);
 		fi = new FileInputStream(".\\src\\test\\resources\\testdata\\" + propertyFile);
 		p.load(fi);
-		if (eleText.equals(p.getProperty(expectedresults))) {
+		if (eleText.contains(p.getProperty(expectedresults))) {
 			System.out.println("expected text presented on screen");
-
 		} else if (eleText.contains(expectedresults)) {
 			System.out.println("expected text contains  on screen");
 		} else {

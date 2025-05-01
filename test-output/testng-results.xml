@@ -1,151 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
-=======
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
->>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-04-29T17:20:08 MST" name="Default suite" finished-at="2025-04-29T17:20:10 MST" duration-ms="2025">
-=======
-  <suite started-at="2025-04-29T18:54:45 MDT" name="Default suite" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5362">
->>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
+  <suite started-at="2025-05-01T09:50:14 MST" name="Default suite" finished-at="2025-05-01T09:50:26 MST" duration-ms="12581">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2025-04-29T17:20:08 MST" name="Default test" finished-at="2025-04-29T17:20:10 MST" duration-ms="2025">
-=======
-    <test started-at="2025-04-29T18:54:45 MDT" name="Default test" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5362">
->>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
-      <class name="com.testscenarios.Fblogin">
-<<<<<<< HEAD
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.Fblogin@7eac9008]" started-at="2025-04-29T17:20:08 MST" name="beforeClass" finished-at="2025-04-29T17:20:09 MST" duration-ms="1960" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
-Host info: host: 'ANULAPTOP', ip: '192.168.4.97'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
-Host info: host: 'ANULAPTOP', ip: '192.168.4.97'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.testscenarios.Fblogin.beforeClass(Fblogin.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test started-at="2025-05-01T09:50:14 MST" name="Default test" finished-at="2025-05-01T09:50:26 MST" duration-ms="12581">
+      <class name="com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout">
+        <test-method signature="TC_06()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:14 MST" name="TC_06" finished-at="2025-05-01T09:50:20 MST" duration-ms="6682" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.testscenarios.Fblogin@7eac9008]" started-at="2025-04-29T17:20:10 MST" name="f" finished-at="2025-04-29T17:20:10 MST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
-Host info: host: 'ANULAPTOP', ip: '192.168.4.97'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
-Host info: host: 'ANULAPTOP', ip: '192.168.4.97'
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.testscenarios.Fblogin.beforeClass(Fblogin.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-=======
-        <test-method signature="f()[pri:0, instance:com.testscenarios.Fblogin@7ee8290b]" started-at="2025-04-29T18:54:45 MDT" name="f" finished-at="2025-04-29T18:54:50 MDT" duration-ms="5301" status="PASS">
->>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
+        </test-method> <!-- TC_06 -->
+        <test-method signature="TC_07()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:20 MST" name="TC_07" finished-at="2025-05-01T09:50:21 MST" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.Fblogin -->
+        </test-method> <!-- TC_07 -->
+        <test-method signature="TC_08()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:21 MST" name="TC_08" finished-at="2025-05-01T09:50:22 MST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08 -->
+        <test-method signature="TC_09()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:22 MST" name="TC_09" finished-at="2025-05-01T09:50:23 MST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09 -->
+        <test-method signature="TC_10()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:23 MST" name="TC_10" finished-at="2025-05-01T09:50:24 MST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10 -->
+        <test-method signature="TC_11()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@ba2f4ec]" started-at="2025-05-01T09:50:24 MST" name="TC_11" finished-at="2025-05-01T09:50:26 MST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11 -->
+      </class> <!-- com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

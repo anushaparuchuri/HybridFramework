@@ -49,6 +49,12 @@ public class Fblogin extends CommonFunctions {
 		sendKeysByAnyLocator(loc.fbLogin_Email_Editbox, "fbUN");
 		sendKeysByAnyLocator(loc.fbLogin_Password_Editbox, "fbPWD");
 		clickByAnyLocator(loc.fbLogin_Login_Button);
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
+=======
+		Thread.sleep(6000);
+//		takescreenshot
+		takeScreenshot("Anusha");
 >>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
 		driver.quit();
 
