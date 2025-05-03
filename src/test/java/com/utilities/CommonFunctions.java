@@ -148,7 +148,7 @@ public class CommonFunctions {
 	// Scanner method
 	public String scnnerByString() {
 		String value = s.next();
-		return value;
+		return value;		
 	}
 
 	/*******
@@ -223,6 +223,7 @@ public class CommonFunctions {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		highlightElement(element);
 		executor.executeScript("arguments[0].click();", element);
+		System.out.println("Click action done by using clickUsingJavaScript method****");
 	}
 
 	public void highlightElement(WebElement element) throws InterruptedException {
@@ -303,6 +304,20 @@ public class CommonFunctions {
 		System.out.println("Unix timestamp: " + unixTimestamp);
 
 	}
+	
+	// Get date lessthan current date (based on the user given days)
+		public String getDate(int reverseDate) {
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MMM/yyyy");
+			Calendar cal = Calendar.getInstance();
+			Date date = cal.getTime();
+
+			cal.add(Calendar.DAY_OF_MONTH, -reverseDate);
+			date = cal.getTime();
+			String reportDate = sdf.format(date);
+			System.out.println("reportDate :" + reportDate);
+			return reportDate;
+		}
+
 
 	/*****
 	 * takescreenshot
