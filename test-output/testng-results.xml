@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T07:57:25 MDT" name="Default suite" finished-at="2025-05-03T07:57:37 MDT" duration-ms="11541">
+  <suite started-at="2025-05-05T18:49:22 MDT" name="Default suite" finished-at="2025-05-05T18:50:21 MDT" duration-ms="59694">
     <groups>
     </groups>
-    <test started-at="2025-05-03T07:57:25 MDT" name="Default test" finished-at="2025-05-03T07:57:37 MDT" duration-ms="11541">
-      <class name="com.testscenarios.Fblogin">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.Fblogin@6bf0219d]" started-at="2025-05-03T07:57:25 MDT" name="beforeClass" finished-at="2025-05-03T07:57:29 MDT" duration-ms="3925" status="PASS">
+    <test started-at="2025-05-05T18:49:22 MDT" name="Default test" finished-at="2025-05-05T18:50:21 MDT" duration-ms="59694">
+      <class name="com.testscenarios.Retest_Fblogin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.Retest_Fblogin@6bf0219d]" started-at="2025-05-05T18:49:22 MDT" name="beforeClass" finished-at="2025-05-05T18:49:23 MDT" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.testscenarios.Fblogin@6bf0219d]" started-at="2025-05-03T07:57:29 MDT" name="f" finished-at="2025-05-03T07:57:37 MDT" duration-ms="7583" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.Retest_Fblogin@6bf0219d]" started-at="2025-05-05T18:49:23 MDT" name="f" finished-at="2025-05-05T18:50:21 MDT" duration-ms="58206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.Fblogin -->
+      </class> <!-- com.testscenarios.Retest_Fblogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

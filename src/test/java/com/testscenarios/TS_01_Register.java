@@ -1,5 +1,9 @@
 package com.testscenarios;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -81,9 +85,15 @@ public class TS_01_Register {
 	// Verify user will able to create an account
 	@Test
 	public void tc_05() throws InterruptedException {
-
+		
+		Date d = new Date();			
+		DateFormat df = new SimpleDateFormat("yyMMddHHmmss");
+		String timeStamp = df.format(d);//250505182906		
+		//Anushatest250505182906@yahho.com
+		String email =  "Anushatest"+timeStamp+"@yahho.com";
+		
 		driver.findElement(By.name("name")).sendKeys("Anusha");
-		driver.findElement(By.xpath("(//*[@name='email'])[2]")).sendKeys("Anushatest123@yahho.com");
+		driver.findElement(By.xpath("(//*[@name='email'])[2]")).sendKeys(email);
 		// Signup button click
 		driver.findElement(By.xpath("//*[@data-qa='signup-button']")).click();
 		Thread.sleep(1000);
@@ -100,7 +110,8 @@ public class TS_01_Register {
 		month.selectByVisibleText("August");
 		Select year = new Select(driver.findElement(By.name("years")));
 		year.selectByVisibleText("1947");
-		
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",
+				driver.findElement(By.name("newsletter")));
 		driver.findElement(By.name("newsletter")).click();
 		driver.findElement(By.name("optin")).click();
 		driver.findElement(By.name("first_name")).sendKeys("Anusha");
@@ -114,7 +125,11 @@ public class TS_01_Register {
 		driver.findElement(By.name("mobile_number")).sendKeys("9876543210");
 		driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div/div/form/button")).click();		
 		verifyElementOnScreen(By.xpath("//*[@id=\"form\"]/div/div/div/h2/b"));
-		System.out.println("Account has been created successfully");	
+		
+		//get the text from the application
+		System.out.println("**************************************************************");		
+		System.out.println(driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div")).getText());	
+		System.out.println("**************************************************************");
 
 	}
 
