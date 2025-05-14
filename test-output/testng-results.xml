@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T18:49:22 MDT" name="Default suite" finished-at="2025-05-05T18:50:21 MDT" duration-ms="59694">
+  <suite started-at="2025-05-06T18:27:47 MDT" name="Default suite" finished-at="2025-05-06T18:28:11 MDT" duration-ms="24240">
     <groups>
     </groups>
-    <test started-at="2025-05-05T18:49:22 MDT" name="Default test" finished-at="2025-05-05T18:50:21 MDT" duration-ms="59694">
-      <class name="com.testscenarios.Retest_Fblogin">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testscenarios.Retest_Fblogin@6bf0219d]" started-at="2025-05-05T18:49:22 MDT" name="beforeClass" finished-at="2025-05-05T18:49:23 MDT" duration-ms="1455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.testscenarios.Retest_Fblogin@6bf0219d]" started-at="2025-05-05T18:49:23 MDT" name="f" finished-at="2025-05-05T18:50:21 MDT" duration-ms="58206" status="PASS">
+    <test started-at="2025-05-06T18:27:47 MDT" name="Default test" finished-at="2025-05-06T18:28:11 MDT" duration-ms="24240">
+      <class name="com.testscenarios.FbRetestWithDataProvider">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:27:47 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:27:54 MDT" duration-ms="7363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anushatestnewsdgsdgsdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.Retest_Fblogin -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:27:54 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:28:01 MDT" duration-ms="7207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreenivasdgsdgssdfdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3sdgdsg454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:28:01 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:28:11 MDT" duration-ms="9600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testSreenivasdgsdgssdfdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3sdgdsg454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.testscenarios.FbRetestWithDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
