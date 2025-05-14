@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-05-09T16:54:30 MST" name="Default suite" finished-at="2025-05-09T16:54:43 MST" duration-ms="12417">
+=======
+  <suite started-at="2025-05-06T18:27:47 MDT" name="Default suite" finished-at="2025-05-06T18:28:11 MDT" duration-ms="24240">
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-05-09T16:54:30 MST" name="Default test" finished-at="2025-05-09T16:54:43 MST" duration-ms="12417">
       <class name="com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout">
         <test-method signature="TC_06()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@247bddad]" started-at="2025-05-09T16:54:30 MST" name="TC_06" finished-at="2025-05-09T16:54:37 MST" duration-ms="6532" status="PASS">
@@ -12,8 +21,26 @@
           </reporter-output>
         </test-method> <!-- TC_06 -->
         <test-method signature="TC_07()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@247bddad]" started-at="2025-05-09T16:54:37 MST" name="TC_07" finished-at="2025-05-09T16:54:37 MST" duration-ms="652" status="PASS">
+=======
+    <test started-at="2025-05-06T18:27:47 MDT" name="Default test" finished-at="2025-05-06T18:28:11 MDT" duration-ms="24240">
+      <class name="com.testscenarios.FbRetestWithDataProvider">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:27:47 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:27:54 MDT" duration-ms="7363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anushatestnewsdgsdgsdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- TC_07 -->
         <test-method signature="TC_08()[pri:0, instance:com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout@247bddad]" started-at="2025-05-09T16:54:37 MST" name="TC_08" finished-at="2025-05-09T16:54:39 MST" duration-ms="1347" status="PASS">
           <reporter-output>
@@ -32,6 +59,42 @@
           </reporter-output>
         </test-method> <!-- TC_11 -->
       </class> <!-- com.testscenarios.TS_02_VerifyUserwillAbleToLogin_Logout -->
+=======
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:27:54 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:28:01 MDT" duration-ms="7207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreenivasdgsdgssdfdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3sdgdsg454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.FbRetestWithDataProvider@fbd1f6]" started-at="2025-05-06T18:28:01 MDT" name="f" data-provider="abc" finished-at="2025-05-06T18:28:11 MDT" duration-ms="9600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testSreenivasdgsdgssdfdg34534@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3sdgdsg454rgdsgdsgsdfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.testscenarios.FbRetestWithDataProvider -->
+>>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

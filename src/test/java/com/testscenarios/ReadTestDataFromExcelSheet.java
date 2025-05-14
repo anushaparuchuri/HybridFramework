@@ -9,9 +9,14 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.utilities.CommonFunctions;
+
 public class ReadTestDataFromExcelSheet {
 
 	public static void main(String[] args) throws Exception {
+		CommonFunctions cfn = new CommonFunctions();
+		
+		cfn.chromeBrowserLaunch();
 		
 		FileInputStream excelTestDataSheetPath = new FileInputStream(".\\src\\test\\resources\\testdata\\anusha.xlsx");
 		Workbook w = new XSSFWorkbook(excelTestDataSheetPath);
