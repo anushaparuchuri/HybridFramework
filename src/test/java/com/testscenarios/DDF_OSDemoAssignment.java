@@ -36,7 +36,7 @@ public class DDF_OSDemoAssignment extends CommonFunctions {
 		driver.findElement(loc.os_password_editbox).sendKeys(pswd.getStringCellValue());
 		driver.findElement(loc.os_login_button).click();
 		Thread.sleep(3000);
-		if (driver.findElements(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p"))).size() > 0 {
+		if (driver.findElements(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p")).size() > 0) {
 			System.out.println("Given credential are in-valid***");
 			res = "In-valid credential";
 		} else {
