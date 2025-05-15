@@ -46,11 +46,17 @@
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>4.1.2</version>
 		</dependency>
+	
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>9.3.0</version>
+		</dependency>
 
 
 	</dependencies>
 	<build>
-	<pluginManagement>
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -84,17 +90,17 @@
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
-				
-				 <plugin>
+
+				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-report-plugin</artifactId>
 					<version>3.5.2</version>
-				 </plugin>
-			
+				</plugin>
+
 			</plugins>
 		</pluginManagement>
-		
-		
+
+
 	</build>
 
 

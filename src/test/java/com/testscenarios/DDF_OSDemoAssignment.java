@@ -49,7 +49,6 @@ public class DDF_OSDemoAssignment extends CommonFunctions {
 				System.out.println("Given credential are valid***");
 				res = "Valid credential";
 
-<<<<<<< HEAD
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.findElement(loc.os_login_button).sendKeys(un.getStringCellValue());
 		driver.findElement(loc.os_password_editbox).sendKeys(pswd.getStringCellValue());
@@ -69,7 +68,7 @@ public class DDF_OSDemoAssignment extends CommonFunctions {
 			
 			
 		}
-=======
+
 				// click ok in alert
 				// driver.switchTo().alert().accept();
 				driver.findElement(By.xpath("//*[@class='oxd-userdropdown-name']")).click();
@@ -86,7 +85,7 @@ public class DDF_OSDemoAssignment extends CommonFunctions {
 		FileOutputStream fo = new FileOutputStream(".\\src\\test\\resources\\testdata\\anusha.xlsx");
 		w.write(fo);
 		w.close();
->>>>>>> branch 'master' of https://github.com/anushaparuchuri/HybridFramework
+
 
 	}
 
